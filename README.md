@@ -1,4 +1,5 @@
-# [Your name here]'s-Lab-Hub
+# Xingyu's Interactive Device Design Lab Hub (Cornell Tech Fall 2021)
+
 for [Interactive Device Design](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/)
 
 Please place links here to the README.md's for each of your labs here:
