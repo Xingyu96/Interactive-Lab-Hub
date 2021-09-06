@@ -86,8 +86,12 @@ Some responses I've gathered in the breakout group about this idea:
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
+- I designed the Light Metronome to have physical buttons on it to control the tempo of the metronome flashes, this may not be ideal when the musician is sitting from some distance away, and cannot reach the metronome easily. Perhaps there should be a remote control included with the device.
+- During the interaction we placed the Light Metronome on a table. It occured to me that I did not consider there might be objects blocking the metronome if there are multiple people using it. So the Metronome has to either be hung in a highly visible place, or there must be mutliple devices working in sync so that everyone can see the tempo.
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+- In a future version, we might need to include a remote control for the device for ease of control.
+- We might also make the Metronome a copy of 4 or 5 linked display boards instead of just one device, so that it can be seen by everyone in a large band environment.
 
 
 ## Part C. Prototype the device
@@ -101,7 +105,7 @@ We invented this tool for this lab!
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
-
+- Despite trying to get the app to work for a while, none of us in the breakout group were able to do it. During my own prototyping phase I chose to just use a digital colour background on my phone to mimic the Tinkerbelle page.
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
@@ -111,6 +115,7 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
+- We changed the filming technique and added a few more cuts to highlight the interactions with the Light Metronome device.
 
 
 ## Part E. Costume the device
@@ -122,6 +127,8 @@ Think about the setting of the device: is the environment a place where the devi
 \*\***Include sketches of what your device might look like here.**\*\*
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+- I wanted the physical buttons on the device to be at the top and large so that they are easily located. 
+- I didn't want to add more that the 3 buttons (2 for controlling the tempo and 1 for start/stopping the flash) because this would keep the device easy to operate and its function clear.
 
 
 ## Part F. Record
@@ -132,6 +139,7 @@ https://user-images.githubusercontent.com/14202464/132264887-6e1aa1de-026f-49b2-
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+- Thanks to Hong Xuan for lending me his guitar and helping me film the device interaction.
 
 
 
