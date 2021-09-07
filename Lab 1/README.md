@@ -114,7 +114,7 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
-https://user-images.githubusercontent.com/14202464/132276366-5ce3fd2f-5f4d-413e-a977-ff8569e32e9d.MOV
+https://user-images.githubusercontent.com/14202464/132276548-679d7a3c-3377-4849-95c9-8b82d21f233e.mp4
 
 - During the first round of filming we had to make several changes to the prototype including securing the phone in it with tape
 - We also had to change the angle of the video and take more cuts to better show the button interactions
