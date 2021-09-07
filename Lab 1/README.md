@@ -1,3 +1,5 @@
+
+
 # Staging Interaction
 
 In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell). 
@@ -112,11 +114,15 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
+https://user-images.githubusercontent.com/14202464/132275755-f6b6cef3-a735-4025-8a49-0edbf327e282.MOV
+
+- During the first round of filming we had to make several changes to the prototype including securing the phone in it with tape
+- We also had to change the angle of the video and take more cuts to better show the button interactions
+
+Now, change the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
 - We changed the filming technique and added a few more cuts to highlight the interactions with the Light Metronome device.
-
 
 ## Part E. Costume the device
 
@@ -125,6 +131,9 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 \*\***Include sketches of what your device might look like here.**\*\*
+
+![prototype](https://user-images.githubusercontent.com/14202464/132276065-aebfdbee-bc23-40ac-b43a-71f95bb9fb30.jpg)
+- Prototype of the Light Metronome
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 - I wanted the physical buttons on the device to be at the top and large so that they are easily located. 
