@@ -163,6 +163,12 @@ You will be assigned three partners from another group. Go to their github pages
 
 \*\***Summarize feedback from your partners here.**\*\*
 
+I received some very helpful peer review comments, as well as input from my breakout group members in Thursday's class.
+- People generally liked the idea of using light to indicate metronome tempo instead of sound, especially the music lovers
+- Some people suggested that the screen should be bigger, or that the device should be mounted on the ceiling for maximum visibility
+- I received a really good critical feedback on the button design - I should replace the "-" and "+" volume button with something more symbolically indicative of volume change
+- I received some feedback on the colour use. Some suggested using a different colour that red, or maybe using a range of colour to indicate tempo speed (I personally dislike this idea of changing colour per tempo, but I see how making the colour programmable could be helpful, sort of like catering to people's persnoal tastes.)
+
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
