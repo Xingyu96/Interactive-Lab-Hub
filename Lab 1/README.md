@@ -196,8 +196,11 @@ F) [Record the interaction](#part-f-record)
 ### Storyboard - User Story
 ![lab_1_storyboard_cropped](https://user-images.githubusercontent.com/14202464/133000613-4168dcc5-a3df-453c-aaf6-a739cc7096dd.jpg)
 
-### Storyboard - Functional Design
-![functions](https://user-images.githubusercontent.com/14202464/133000619-147a15e5-e6cc-4306-9511-45acb798f8bf.jpg)
+### Functional Design - Main Device Buttons
+![functions](https://user-images.githubusercontent.com/14202464/133001140-4237560f-3e14-48a2-bd15-b23245a4fde7.jpg)
+
+### Functional Design - Remote Control
+![remote](https://user-images.githubusercontent.com/14202464/133001137-5dc0d285-b610-41b9-820f-43f2d778c9bb.jpg)
 
 ## B. Act out the Interaction
 
