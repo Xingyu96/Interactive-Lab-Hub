@@ -217,3 +217,8 @@ The prototype device for Lab 1 Part 2 has a new interface on top of the device w
 
 
 ## D. Record the interaction
+I recorded a new video of the Light Metronome user interaction, with new features included in the demo. I show the user turning on the device, changing the colour and the tempo, starting the metronome, and turning it off using the the remote.
+
+https://user-images.githubusercontent.com/14202464/133003753-d24818ff-f73d-4023-ab2c-4c887849778c.mp4
+
+
