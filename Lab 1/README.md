@@ -175,9 +175,9 @@ A) [Plan](#a-plan)
 
 B) [Act out the interaction](#b-act-out-the-interaction) 
 
-E) [Costume the device](#c-costume-the-device)
+C) [Costume the device](#c-costume-the-device)
 
-F) [Record the interaction](#d-record)
+D) [Record the interaction](#d-record-the-interaction)
 
 ## A. Plan
 
