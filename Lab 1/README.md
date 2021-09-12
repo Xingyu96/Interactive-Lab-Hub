@@ -175,15 +175,11 @@ A) [Plan](#a-plan)
 
 B) [Act out the interaction](#b-act-out-the-interaction) 
 
-C) [Prototype the device](#part-c-prototype-the-device)
+E) [Costume the device](#c-costume-the-device)
 
-D) [Wizard the device](#part-d-wizard-the-device) 
+F) [Record the interaction](#d-record)
 
-E) [Costume the device](#part-e-costume-the-device)
-
-F) [Record the interaction](#part-f-record)
-
-## Plan
+## A. Plan
 
 ***Setting***: In a quiet room, or a recording studio.
 
@@ -212,3 +208,7 @@ Try physically acting out the interaction you planned. For now, you can just pre
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
 - We might also make the Metronome a copy of 4 or 5 linked display boards instead of just one device, so that it can be seen by everyone in a large band environment.
 - I would like to change the design of the colour buttons to RGB value dials instead, to allow further customization.
+
+## C. Costume the device
+
+## D. Record the interaction
