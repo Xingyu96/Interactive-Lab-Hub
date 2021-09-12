@@ -169,11 +169,43 @@ I received some very helpful peer review comments, as well as input from my brea
 - I received a really good critical feedback on the button design - I should replace the "-" and "+" volume button with something more symbolically indicative of volume change
 - I received some feedback on the colour use. Some suggested using a different colour that red, or maybe using a range of colour to indicate tempo speed (I personally dislike this idea of changing colour per tempo, but I see how making the colour programmable could be helpful, sort of like catering to people's persnoal tastes.)
 
-## Make it your own
+## A. Make it your own
 
-Do last week’s assignment again, but this time: 
-1) It doesn’t have to (just) use light, 
-2) You can use any modality (e.g., vibration, sound) to prototype the behaviors! Again, be creative!
-3) We will be grading with an emphasis on creativity. 
+A) [Plan](#a-plan) 
 
-\*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+B) [Act out the interaction](#b-act-out-the-interaction) 
+
+C) [Prototype the device](#part-c-prototype-the-device)
+
+D) [Wizard the device](#part-d-wizard-the-device) 
+
+E) [Costume the device](#part-e-costume-the-device)
+
+F) [Record the interaction](#part-f-record)
+
+## Plan
+
+***Setting***: In a quiet room, or a recording studio.
+
+***Players***: One musician, or a music band, could be four to five people, or a large group of musicians.
+
+***Activity***: The musicians are rehearsing, but importantly they are recording their rehearsal.
+
+***Goals***: Each individual is trying play the music and keep the beat, making sure to not rush or lag behind others.
+
+### Storyboard - User Story
+![lab_1_storyboard_cropped](https://user-images.githubusercontent.com/14202464/133000613-4168dcc5-a3df-453c-aaf6-a739cc7096dd.jpg)
+
+### Storyboard - Functional Design
+![functions](https://user-images.githubusercontent.com/14202464/133000619-147a15e5-e6cc-4306-9511-45acb798f8bf.jpg)
+
+## B. Act out the Interaction
+
+Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
+
+\*\***Are there things that seemed better on paper than acted out?**\*\*
+- In Part 2 of Lab 1, I added buttons to control the colour of the metronome, and changed the design of the tempo control button. On paper having 5 buttons for controlling the colour seemed like a good idea. But when I acted it out, I realize that I could have designed the device with a colour wheel, or a RGB numerical dial instead, to allow for even more customization of the screen colour, rather than limiting it to only 5 preset colours.
+
+\*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+- We might also make the Metronome a copy of 4 or 5 linked display boards instead of just one device, so that it can be seen by everyone in a large band environment.
+- I would like to change the design of the colour buttons to RGB value dials instead, to allow further customization.
