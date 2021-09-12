@@ -210,5 +210,10 @@ Try physically acting out the interaction you planned. For now, you can just pre
 - I would like to change the design of the colour buttons to RGB value dials instead, to allow further customization.
 
 ## C. Costume the device
+The prototype device for Lab 1 Part 2 has a new interface on top of the device with updated colour selection buttons as well as tempo down, tempo up, and start/stop buttons.
+
+### Light Metronome Prototyp (Version 2)
+![prototype_2](https://user-images.githubusercontent.com/14202464/133001634-9c98d843-1a20-40cd-9fe9-8bf40fc73ea6.jpg)
+
 
 ## D. Record the interaction
