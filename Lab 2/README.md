@@ -6,6 +6,9 @@ For our first Pi project, we will pay homage to the [timekeeping devices of old]
 
 It is worth spending a little time thinking about how you mark time, and what would be useful in a clock of your own design.
 
+### Quick Links
+- [Lab 2 Part 1 - Modified Clock](#part-e)
+
 **Please indicate anyone you collaborated with on this Lab here.**
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
@@ -175,6 +178,8 @@ Can you make time interactive? You can look in `screen_test.py` for examples for
 **We strongly discourage and will reject the results of literal digital or analog clock display.**
 
 \*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
+The code for the **Circle Clock** is located at the following file in the project
+[Interactive-Lab-Hub/Lab 2/screen_clock.py](https://github.com/Xingyu96/Interactive-Lab-Hub/blob/80345a553186f88aabd94656b120aadaafe44ef7/Lab%202/screen_clock.py)
 
 After you edit and work on the scripts for Lab 2, the files should be upload back to your own GitHub repo! You can push to your personal github repo by adding the files here, commiting and pushing.
 
@@ -191,9 +196,14 @@ After that, Git will ask you to login to your GitHub account to push the updates
 ## Make a short video of your modified barebones PiClock
 
 \*\*\***Take a video of your PiClock.**\*\*\*
+https://user-images.githubusercontent.com/14202464/134109345-8ce024a5-e5f8-498d-a60b-74a60e8ef3e4.mp4
+
+
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+- In the next iteration I would like to have the button switch to a calendar mode
+- I would also like the button to be able to cycle through alternative clock displays, such as using tiled cards as substitue for clock time
 
 
 # Prep for Part 2
