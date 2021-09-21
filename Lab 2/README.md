@@ -178,7 +178,9 @@ Can you make time interactive? You can look in `screen_test.py` for examples for
 **We strongly discourage and will reject the results of literal digital or analog clock display.**
 
 \*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
-The code for the **Circle Clock** is located at the following file in the project
+
+The code for the **Circle Clock** is located at the following file in the project:
+
 [Interactive-Lab-Hub/Lab 2/screen_clock.py](https://github.com/Xingyu96/Interactive-Lab-Hub/blob/80345a553186f88aabd94656b120aadaafe44ef7/Lab%202/screen_clock.py)
 
 After you edit and work on the scripts for Lab 2, the files should be upload back to your own GitHub repo! You can push to your personal github repo by adding the files here, commiting and pushing.
