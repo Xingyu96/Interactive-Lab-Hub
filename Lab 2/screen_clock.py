@@ -65,6 +65,123 @@ while True:
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
+    font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 16)
+    
+    # emojis
+    white_circle = u"\u26AA"
+    fill_circle = u"\u26AB"
+    person = u"\u26A1"
+    peace = u"\u262E"
+
+    separator = "<======= " + peace + " =======>"
+    
+    # time
+    clock_title = "<=== CIRCLE CLOCK ===>"
+    CUR_TIME = time.strftime("%H:%M:%S")
+    time_list = CUR_TIME.split(":")
+    
+    hours = int(time_list[0])
+    minutes = time_list[1]
+    seconds = int(time_list[2])
+
+    # hours rows
+    twelve_circles = [white_circle for x in range(12)]
+    am_string = ""
+    pm_string = ""
+
+    for i in range(12):
+        if (i < hours):
+            am_string += fill_circle
+        else:
+            am_string += white_circle
+
+    for i in range(12, 24):
+        if (i < hours):
+            pm_string += fill_circle
+        else:
+            pm_string += white_circle
+
+    # minutes row
+    minutes_string = ""
+    minutes_ten = int(minutes[0])
+    minutes_digit = int(minutes[1])
+
+    for i in range(5):
+        if (i < minutes_ten):
+            minutes_string += fill_circle
+        else:
+            minutes_string += white_circle
+
+    minutes_string += " | "
+
+    for i in range(10):
+        if (i < minutes_digit):
+            minutes_string += fill_circle
+        else:
+            minutes_string += white_circle
+    
+    # seconds row
+    seconds_string = ""
+    
+    for i in range(1, 4):
+        if i * 5 <= seconds:
+            seconds_string += fill_circle
+        else:
+            seconds_string += white_circle
+    
+    seconds_string += " | "
+
+    for i in range(4, 7):
+        if i * 5 <= seconds:
+            seconds_string += fill_circle
+        else:
+            seconds_string += white_circle
+
+    seconds_string += " | "
+
+    for i in range(7, 10):
+        if i * 5 <= seconds:
+            seconds_string += fill_circle
+        else:
+            seconds_string += white_circle
+
+    seconds_string += " | "
+
+    for i in range(10, 13):
+        if i * 5 <= seconds:
+            seconds_string += fill_circle
+        else:
+            seconds_string += white_circle
+
+
+    y = top
+    # clock title
+    draw.text((x, y), clock_title, font=font, fill="#FFFFFF")
+    y += font.getsize(clock_title)[1]
+    
+    # am row
+    draw.text((x, y), am_string, font=font, fill="#FFA500")
+    y += font.getsize(am_string)[1]
+    
+    # pm row
+    draw.text((x, y), pm_string, font=font, fill="#4083BF")
+    y += font.getsize(pm_string)[1]
+    
+    draw.text((x, y), separator, font=font, fill="#FFFFFF")
+    y += font.getsize(separator)[1]
+
+    # minutes row
+    draw.text((x, y), minutes_string, font=font, fill="#3FC059")
+    y += font.getsize(minutes_string)[1]
+
+    draw.text((x, y), separator, font=font, fill="#FFFFFF")
+    y += font.getsize(separator)[1]
+
+    # seconds row
+    draw.text((x, y), seconds_string, font=font, fill="#974DB2")
+    y += font.getsize(seconds_string)[1]
+
+    draw.text((x, y), separator, font=font, fill="#FFFFFF")
 
     # Display image.
     disp.image(image, rotation)
