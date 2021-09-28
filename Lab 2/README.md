@@ -8,6 +8,7 @@ It is worth spending a little time thinking about how you mark time, and what wo
 
 ### Quick Links
 - [Lab 2 Part 1 - Modified Clock](#part-e)
+- [Lab 2 Part 2 - Additional Function](#lab-2-part-2)
 
 **Please indicate anyone you collaborated with on this Lab here.**
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
