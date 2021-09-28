@@ -217,14 +217,17 @@ https://user-images.githubusercontent.com/14202464/134109345-8ce024a5-e5f8-498d-
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
 
+- People really like my idea at not using any numbers and instad relying on filled / empty circles to represent time.
+- People wished that I would make the clock count the seconds too
+
 # Lab 2 Part 2
 
 Pull Interactive Lab Hub updates to your repo.
 
-Modify the code from last week's lab to make a new visual interface for your new clock. You may [extend the Pi](Extending%20the%20Pi.md) by adding sensors or buttons, but this is not required.
+I update the clock to display the month and day by pressing **button A** on the screen.
 
-As always, make sure you document contributions and ideas from others explicitly in your writeup.
+https://user-images.githubusercontent.com/14202464/135011833-181a779c-856b-4257-8c0d-7fe5511b621d.mp4
 
-You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
+
 
 
