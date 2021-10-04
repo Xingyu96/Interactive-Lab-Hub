@@ -28,6 +28,10 @@ pi@ixe00:~/Interactive-Lab-Hub $ git push
 Option 2: On your your own GitHub repo, [create pull request](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2021Fall/readings/Submitting%20Labs.md) to get updates from the class Interactive-Lab-Hub. After you have latest updates online, go on your Pi, `cd` to your `Interactive-Lab-Hub` and use `git pull` to get updates from your own GitHub repo.
 
 ## Part 1.
+
+### Lab Partner
+For this lab I collaborated with Wenlan Wei to design and act out the voice commanded to-do list application.
+
 ### Text to Speech 
 
 In this part of lab, we are going to start peeking into the world of audio on your Pi! 
@@ -54,7 +58,12 @@ Now, you might wonder what exactly is a `.sh` file? Typically, a `.sh` file is a
 You can also play audio files directly with `aplay filename`. Try typing `aplay lookdave.wav`.
 
 \*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
-(This shell file should be saved to your own repo for this lab.)
+
+The shell file is called [greet_me.sh](https://github.com/Xingyu96/Interactive-Lab-Hub/blob/Fall2021/Lab%203/greet_me.sh) and it says "Hi Xingyu"
+
+```
+espeak -ven+f2 -k5 -s150 --stdout  "Hi Xingyu" | aplay
+```
 
 Bonus: If this topic is very exciting to you, you can try out this new TTS system we recently learned about: https://github.com/rhasspy/larynx
 
@@ -67,6 +76,10 @@ In particular, look at `test_words.py` and make sure you understand how the voca
 One thing you might need to pay attention to is the audio input setting of Pi. Since you are plugging the USB cable of your webcam to your Pi at the same time to act as speaker, the default input might be set to the webcam microphone, which will not be working for recording.
 
 \*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
+```
+python require_zipcode.py
+```
+<img width="1022" alt="test_zipcode" src="https://user-images.githubusercontent.com/14202464/135935518-1c18763c-73fb-49e6-9655-b679fc134cdd.png">
 
 Bonus Activity:
 
@@ -114,6 +127,7 @@ Write out what you imagine the dialogue to be. Use cards, post-its, or whatever 
 \*\***Please describe and document your process.**\*\*
 
 We came up with the idea of designing a voice controlled to-do list reader. The idea is that we would have a website (for now hosted locally) that stores a daily to-do list. When the user sends a command to the Raspberry Pi, the Pi is going to read out the to-do list to the user.
+
 - We decided to make the keyword command "Good Morning" because it's a distinct and easy to recognize phrase.
 - For now we made the to-do list static. In the next part we plan on make it editable.
 
@@ -121,7 +135,10 @@ We came up with the idea of designing a voice controlled to-do list reader. The 
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
+https://www.youtube.com/watch?v=xnpNCmWf0q8
+
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
+It was an easy script to act out so we did not have too much trouble doing that. However what surprised me was that the speech seemed a bit robotic even as I said the list of to-dos out lout. I feel like in natural conversation we would not be listing a list of activities out so methodically.
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
