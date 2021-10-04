@@ -105,10 +105,16 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
+### Storyboard
+![IMG_20211004_172423](https://user-images.githubusercontent.com/14202464/135928334-40d54604-0001-4b81-802a-50ac0e892b7f.jpg)
+
+### Design UML
 ![idd_lab3](https://user-images.githubusercontent.com/14202464/135925959-578631ed-d183-445a-8916-0c389c449256.png)
 
-
 \*\***Please describe and document your process.**\*\*
+We came up with the idea of designing a voice controlled to-do list reader. The idea is that we would have a website (for now hosted locally) that stores a daily to-do list. When the user sends a command to the Raspberry Pi, the Pi is going to read out the to-do list to the user.
+- We decided to make the keyword command "Good Morning" because it's a distinct and easy to recognize phrase.
+- For now we made the to-do list static. In the next part we plan on make it editable.
 
 ### Acting out the dialogue
 
