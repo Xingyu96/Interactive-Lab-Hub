@@ -135,6 +135,8 @@ We came up with the idea of designing a voice controlled to-do list reader. The 
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
+[![](https://user-images.githubusercontent.com/14202464/135935952-e529bace-57ef-42ed-b614-432e3dc76a30.png)](https://www.youtube.com/watch?v=xnpNCmWf0q8)
+
 https://www.youtube.com/watch?v=xnpNCmWf0q8
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
