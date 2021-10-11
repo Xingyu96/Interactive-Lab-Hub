@@ -121,9 +121,6 @@ Write out what you imagine the dialogue to be. Use cards, post-its, or whatever 
 ### Storyboard
 ![IMG_20211004_172423](https://user-images.githubusercontent.com/14202464/135928334-40d54604-0001-4b81-802a-50ac0e892b7f.jpg)
 
-### Design UML
-![idd_lab3](https://user-images.githubusercontent.com/14202464/135925959-578631ed-d183-445a-8916-0c389c449256.png)
-
 \*\***Please describe and document your process.**\*\*
 
 We came up with the idea of designing a voice controlled to-do list reader. The idea is that we would have a website (for now hosted locally) that stores a daily to-do list. When the user sends a command to the Raspberry Pi, the Pi is going to read out the to-do list to the user.
@@ -140,12 +137,20 @@ Find a partner, and *without sharing the script with your partner* try out the d
 https://www.youtube.com/watch?v=xnpNCmWf0q8
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
+
 It was an easy script to act out so we did not have too much trouble doing that. However what surprised me was that the speech seemed a bit robotic even as I said the list of to-dos out lout. I feel like in natural conversation we would not be listing a list of activities out so methodically.
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
 
 \*\***Describe if the dialogue seemed different than what you imagined, or when acted out, when it was wizarded, and how.**\*\*
+
+We noted that reading out the original draft seemed a bit robotic, but after hearing the actual Text to Speech read it out, the result was not natural at all. We realized that we had to make the commands and responses succinct enough and the vocabulary easy enough to understand. 
+
+We adjusted the dialogue accordingly. We thought that the keyword we chose, "Good Morning," would be a decent choice for the Pi to recognize. We made the response of the Pi something easy to understand:
+- "Good morning" (to confirm receipt of the command)
+- "Here are your tasks today: ... " (to indicate the system will start listing the tasks off)
+- "Have a nice day" (To conclude the broadcast)
 
 # Lab 3 Part 2
 
@@ -165,6 +170,9 @@ The system should:
 * require participants to speak to it. 
 
 *Document how the system works*
+
+### Design UML
+![idd_lab3](https://user-images.githubusercontent.com/14202464/135925959-578631ed-d183-445a-8916-0c389c449256.png)
 
 *Include videos or screencaptures of both the system and the controller.*
 
