@@ -177,7 +177,8 @@ The system should:
 *Include videos or screencaptures of both the system and the controller.*
 
 ### Testing Video
-![](https://youtu.be/bEcbrsW1cBQ)
+[![youtube_img](https://user-images.githubusercontent.com/14202464/137053191-085cb362-c812-43de-84da-6811e2cb3843.PNG)](https://youtu.be/bEcbrsW1cBQ)
+
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
