@@ -159,8 +159,10 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
-2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
-3. Make a new storyboard, diagram and/or script based on these reflections.
+  - We could make the responses that the text to speech simpler and use shorter words, such as "here is your list" instead of "I have gathered a list of your items"
+  - 
+3. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+4. Make a new storyboard, diagram and/or script based on these reflections.
 
 ## Prototype your system
 
