@@ -30,7 +30,7 @@ Option 2: On your your own GitHub repo, [create pull request](https://github.com
 ## Part 1.
 
 ### Lab Partner
-For this lab I collaborated with Wenlan Wei to design and act out the voice commanded to-do list application.
+For this lab I collaborated with Wenlan Wei (ww367) to design and act out the voice commanded to-do list application.
 
 ### Text to Speech 
 
@@ -159,10 +159,19 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
-  - We could make the responses that the text to speech simpler and use shorter words, such as "here is your list" instead of "I have gathered a list of your items"
-  - 
+  - We can make the responses that the text to speech simpler and use shorter words, such as "here is your list" instead of "I have gathered a list of your to-do items"
 3. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
-4. Make a new storyboard, diagram and/or script based on these reflections.
+  - We could use a website to display the to-do list items (we chose this option), we could use LED lights
+5. Make a new storyboard, diagram and/or script based on these reflections.
+
+ - Our finalized script looks like this:
+```
+User: Good Morning (keyword)
+
+Pi: Good Morning, here is your to do lis: ...
+
+Pi: Have a nice day, I believe you can do it.
+```
 
 ## Prototype your system
 
@@ -172,6 +181,15 @@ The system should:
 * require participants to speak to it. 
 
 *Document how the system works*
+
+The **Voice Controled To-Do list** uses the audio receptor to capture and recognize an user command in order to read off a to-do list. 
+
+The system comprises the following components:
+- audio receptor
+- script to recognize voice commant
+- script that parses the to-do list website and extracts a list of to-do list items
+- speaker
+- html website that contains to-do list
 
 ### Design UML
 ![idd_lab3](https://user-images.githubusercontent.com/14202464/135925959-578631ed-d183-445a-8916-0c389c449256.png)
@@ -188,18 +206,25 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+
+- The voice recognition worked very well
+- Despite simplifying the response, some test users still had trouble understanding it
+- Test users reflected that they would like the system to "prompt" them to use it, by some sort of proximity warning
 
 ### What worked well about the controller and what didn't?
 
-\*\**your answer here*\*\*
+- The test users loved the sleek design
+- The test users wished that they could add and remove items from the list
+   - We can easily add this function using a javascript script in the future
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
-
-\*\**your answer here*\*\*
+- In the future, we wish to prompt the user to use the system once they are near it
+  - We can do this using a proximity sensor which triggers a text-to-speech prompt, or a light
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-\*\**your answer here*\*\*
+- We can attempt to capture the users' tasks if we include an option for them to create and delete tasks
+- We can capture the user's voice commands in order to build a speech-to-text model ourselves or to customize/enhance the existing one
+- We can capture the time of day the users interacts with the system and analyze when the user is most likely to need the to-do list reminder
 
