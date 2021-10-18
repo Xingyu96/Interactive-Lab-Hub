@@ -261,6 +261,8 @@ In fact, we attempted to make an example cardboard interface for our first idea,
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
+### Idea Selection
+
 
 ### Part D
 ### Physical considerations for displaying information and housing parts
@@ -302,15 +304,33 @@ Think about how you want to present the information about what your sensor is se
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
+### User Interface Design 1
+
+### User Interface Design 2
+
+### User Interface Design 3
+
+### User Interface Design 4
+
+### User Interface Design 5
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+
+### Design Questions
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
+### Idea Selection
+
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+
+### Design Rationale
 
 Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
+
+### Cardboard Prototype
 
 
 LAB PART 2
