@@ -204,6 +204,10 @@ The **Interactive Timer** is a product that allows you to set a countdown timer 
 
 #### Sensors Design
 
+#### Sample Product Design
+
+![idea_1_uml](https://user-images.githubusercontent.com/14202464/137798569-9c601280-c563-4ebb-aec9-830365d2a25a.png)
+
 
 ### Idea 2 - Smart Blind
 
