@@ -175,6 +175,23 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 
+### Idea Generation
+We chose to take a more creative approach with our idea generation. Instead of first choosing sensors, we decided to first brainstorm **tasks and functions** of our product.
+
+We came up with 5 very different product ideas, and then thought about how we would use the sensors available to us to accomplish these ideas.
+
+Because we are a group of 3, we decided to incorporate multiple sensors into each of our ideas in order to provide multiple ways of interacting with each device.
+
+### Idea 1 - Interactive Timer
+
+### Idea 2 - Smart Blind
+
+### Idea 3 - Safe Keeper
+
+### Idea 4 - Racing Simulator
+
+### Idea 5 - Night Path
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
