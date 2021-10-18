@@ -169,6 +169,12 @@ Connect it to your pi with Qwiic connector and try running the example script to
 You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_VL53L1X_Py) to learn more about the sensor and see other examples!
 
 ### Part C
+
+### Lab Partners
+For this Lab, we are a team of 3 people.
+- Xingyu Tao (xt75)
+- Wenlan Wei (ww367) 
+- Jiacheng Peng (jp948)
 ### Physical considerations for sensing
 
 Usually, sensors need to positioned in specific locations or orientations to make them useful for their application. Now that you've tried a bunch of the sensors, pick one that you would like to use, and an application where you use the output of that sensor for an interaction. For example, you can use a distance sensor to measure someone's height if you position it overhead and get them to stand under it.
@@ -183,6 +189,21 @@ We came up with 5 very different product ideas, and then thought about how we wo
 Because we are a group of 3, we decided to incorporate multiple sensors into each of our ideas in order to provide multiple ways of interacting with each device.
 
 ### Idea 1 - Interactive Timer
+
+#### Product Description
+
+The **Interactive Timer** is a product that allows you to set a countdown timer using several interactive methods. 
+- First, you can *wake up* the device via waving over the device *or* through touching the physical touch sensor interface. 
+- Then, you would be able to set the timer and activate it through a physical dial and touch sensor interface. 
+- As the countdown reaches zero, the Interactive Timer will announce it by both emitting a sound, and using a LED light. 
+- The User can then dismiss the timer by waving over the device *or* through touching the physical touch sensor interface.
+
+#### Sensors Used
+
+`distance sensor`, `touch capacitor`, `rotating dial`, `microphone`, `LED light`
+
+#### Sensors Design
+
 
 ### Idea 2 - Smart Blind
 
