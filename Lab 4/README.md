@@ -188,21 +188,21 @@ We came up with 5 very different product ideas, and then thought about how we wo
 
 Because we are a group of 3, we decided to incorporate multiple sensors into each of our ideas in order to provide multiple ways of interacting with each device.
 
-### Idea 1 - Interactive Timer
+### Idea 1 - Smart Timer
 
 #### Product Description
 
-The **Interactive Timer** is a product that allows you to set a countdown timer using several interactive methods. 
+The **Smart Timer** is a product that allows you to set a countdown timer using several interactive methods. 
 - First, you can *wake up* the device via waving over the device *or* through touching the physical touch sensor interface. 
 - Then, you would be able to set the timer and activate it through a physical dial and touch sensor interface. 
-- As the countdown reaches zero, the Interactive Timer will announce it by both emitting a sound, and using a LED light. 
+- As the countdown reaches zero, the Smart Timer will announce it by both emitting a sound, and using a LED light. 
 - The User can then dismiss the timer by waving over the device *or* through touching the physical touch sensor interface.
 
 #### Sensors Used
 
 `distance sensor`, `touch capacitor`, `rotating dial`, `microphone`, `LED light`
 
-#### Sensors Design
+#### Sensors Placement
 
 #### Sample Product Design
 
@@ -211,13 +211,53 @@ The **Interactive Timer** is a product that allows you to set a countdown timer 
 
 ### Idea 2 - Smart Blind
 
+#### Product Description
+
+#### Sensors Used
+
+#### Sensors Placement
+
+#### Sample Product Design
+
 ### Idea 3 - Safe Keeper
+
+#### Product Description
+
+#### Sensors Used
+
+#### Sensors Placement
+
+#### Sample Product Design
 
 ### Idea 4 - Racing Simulator
 
+#### Product Description
+
+#### Sensors Used
+
+#### Sensors Placement
+
+#### Sample Product Design
+
 ### Idea 5 - Night Path
 
+#### Product Description
+
+#### Sensors Used
+
+#### Sensors Placement
+
+#### Sample Product Design
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+
+### Design Questions
+
+While we had a lot of discussions about the *stylistic* design of our products, one immediate implementation question we had was - *can we actually wire the sensors and the Raspberry Pi to fit our design?*
+
+In fact, we attempted to make an example cardboard interface for our first idea, the **Smart Timer**, and ran into placement problems when trying place the Raspberry Pi with the Rotary Dial, with the two components knocking into each other. We had to flip the Raspberry Pi in order to make it work. This is despite having designed space for it in our sketches. We didn't find out about the placement problem until we tried to physically place the components together.
+
+
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
