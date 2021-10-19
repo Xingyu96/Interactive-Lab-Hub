@@ -212,8 +212,8 @@ Because we are a group of 3, we decided to incorporate multiple sensors into eac
 
 The **Smart Timer** is a product that allows you to set a countdown timer using several interactive methods. 
 - First, you can *wake up* the device via waving over the device *or* through touching the physical touch sensor interface. 
-- Then, you would be able to set the timer and activate it through a physical dial and touch sensor interface. 
-- As the countdown reaches zero, the Smart Timer will announce it by both emitting a sound, and using a LED light. 
+- Then, you would be able to set the timer and activate it through a physical dial and touch sensor interface. The screen will be showing the time as it counts down.
+- As the countdown reaches zero on the screen, the Smart Timer will announce it by both emitting a sound, and using a LED light. 
 - The User can then dismiss the timer by waving over the device *or* through touching the physical touch sensor interface.
 
 #### Sensors/Components Used
@@ -229,7 +229,14 @@ The **Smart Timer** is a product that allows you to set a countdown timer using 
 ### Idea 2 - Smart Blind
 
 #### Sensors/Components Description
-The smart blind take vocie input and open/close the blind according to the input.
+
+The **Smart Blind** is a device that takes vocie input and open/close the blind according to the voice input.
+- The user activates the blind by simply saying the command *"open"* or *"close"*
+- The screen will display the current state of the blind (closed, open, or in-between)
+- The servo motor will drive the string that pulls the blind open/close in a smooth manner
+- The user can stop the opening or closing at any time by saying the command *"stop"*
+- Otherwise the blind will stop only when fully opened or closed
+
 #### Sensors/Components Used
 
 `speaker`, `servo mottor`, `screen`
@@ -242,10 +249,17 @@ The smart blind take vocie input and open/close the blind according to the input
 ### Idea 3 - Safe Keeper
 
 #### Product Description
-The Safe Keeper detects unauthorized access and activates the alarm.
+
+The **Safe Keeper** detects unauthorized access and activates the alarm by using the luminosity sensor, and can be activated by an LED button.
+- The user can activate the safe alarm by pressing the LED button
+- The screen will turn on and display a yellow color to indicate that it is armed
+- The user can proceed to lock the safe
+- If the safe is forced open without the combination, the Safe Keeper's luminosity sensor will sense the light and go into Alarm mode
+- The screen will flash in orange, and the microphone will play a lound alarm noise to alert nearby people
+
 #### Sensors/Components Used
 
-`luminosity sensor`, `LED button`, `screen`
+`luminosity sensor`, `LED button`, `screen`, `microphone`
 
 
 #### Sample Product Design
@@ -255,11 +269,17 @@ The Safe Keeper detects unauthorized access and activates the alarm.
 ### Idea 4 - Racing Simulator
 
 #### Product Description
-Racing simulator contains a steering wheel and two paddles. Joystick will be used for steeling, capacitance detector would be used for paddles.
+
+**Racing simulator** is a simulation game device that contains a steering wheel and two paddles that simulates driving a race car. 
+- The LED button will be used to turn the gaming device on and off
+- A Joystick will be used for steering the car left and right
+- Capacitance detectors will be attached to the paddles to simulate acceleration and braking
+- The screen will be displaying a small simulated road, which will curve left or right depending on the steering
+- The screen will also be displaying a speedometer, and the road will move faster/slower depending on the simulated speed.
+
 #### Sensors/Components Used
 
-`touch capacitor`, `LED button`, `joystick`, `screen`
-
+`capacitive touch sensor`, `LED button`, `joystick`, `screen`
 
 #### Sample Product Design
 
@@ -270,10 +290,14 @@ Racing simulator contains a steering wheel and two paddles. Joystick will be use
 
 #### Product Description
 
+The **Night Path** is an assistance device that helps the user navigate dark hallways at night without the need of stumbling to find a light switch
+- The device can be turned on by pressing it with your feet, and the screen will flash an orange color to confirm
+- When the user wakes up during the night and has to navigate the hallway, the distance sensor will detect the user approaching, and light up a warm orange light for a duration of 10 seconds
+- This way the user can see the path clearly as they go through the hallway in relative darkness
+
 #### Sensors/Components Used
 
 `distance sensor`, `screen`, `LED light`, `capacitive touch sensor`
-
 
 #### Sample Product Design
 
@@ -288,10 +312,16 @@ While we had a lot of discussions about the *stylistic* design of our products, 
 In fact, we attempted to make an example cardboard interface for our first idea, the **Smart Timer**, and ran into placement problems when trying place the Raspberry Pi with the Rotary Dial, with the two components knocking into each other. We had to flip the Raspberry Pi in order to make it work. This is despite having designed space for it in our sketches. We didn't find out about the placement problem until we tried to physically place the components together.
 
 
-
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
 ### Idea Selection
+
+We picked **Idea 1 - Smart Timer** to design for several reasons:
+
+- It involved a variety of sensors, so we think it will be a challenging but fun project to design and build
+  - `distance sensor`, `capacitive touch sensor`, `rotating dial`, `microphone`, `LED light`, `screen`
+- We think that it would be interesting to try to design a product that can be activated through multiple ways, by waving or by pressing a touch sensor
+- We wanted to combine some of the learnings we have accumulated since Lab 1 and Lab 2 to build a fun interactive device
 
 
 ### Part D
@@ -349,23 +379,42 @@ Think about how you want to present the information about what your sensor is se
 ### User Interface Design 5
 ![579476596848063676](https://user-images.githubusercontent.com/39228801/137841453-54b50077-2001-4c7c-a9a0-e44f8698f557.jpg)
 
-**\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
-When we making sketches, we found a problem is that if the design of the prototype looks good, they might be some conflicts for the placement of the sensors. For example, we want to make the knob and button close to each other, but during prototyping, we figured the sensors don’t have enough space to fit together. We need to make modifications along the way of our prototyping process.
-### Design Questions
+**\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to answer those questions?\*\*\***
 
-**\*\*\*We choose design 1 as our prototype.\*\*\***
+### Design Questions
+When we were making sketches for the device UI design, one of the problems we found was that even though the design of the prototype looks good, there might be some conflicts for the placement of the sensors. For example, for UI desings 1, 4, and 5, we originally placed the rotary dial and button very close to each other for aesthetic purposes, but during prototyping, we figured out that the sensors don’t have enough space to fit together without overlapping. This would not be a big issu in itself, execpt we also needed to find a place to fit the relatviely bulky Raspberry Pi. For design 1, we had to flip the Pi over in order to fit everything snuggly.
+
+Another question we had is how might the user place the device. Without a clear sense of scale and physicality, this aspect of the user experience is very hard to evaluate. We imagined that the 5 different UI designs might be much better compared if we had a physical replica of each of them, and could hold, look, and turn them around to fully explore the *feel* of the device in an user's hands.
+
+***Pick one of these display designs to integrate into your prototype.***
 
 ### Idea Selection
 
-**\*\*\*Since all the user interface are all physical. We choose design 1 since it has a more anique looking, and all the physical interface will make more sense.\*\*\*** 
+We choose **Design 1** as our prototype.
+- We liked the fact that it was big a boxy, given that we were most sure that all the components will have plenty of room to fit into it.
+- We liked the design aesthetic of it, since we modeled it with Art Deco style.
+
+***Explain the rationale for the design.*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
 ### Design Rationale
 
+The key aspsects of **Design 1** that we were pursuing were easy of assembly and a retro-feel. These actually go somewhat hand-in-hand
+- We wanted to build this design as builk as we can, since we wanted to leave plenty of room for the sensors and Raspberry Pi to fit.
+- We went for a half-rounded top, instead of a square box, so that we could give it a *clock* face design to catch the user's attention, and to clearly announce what the device's function is, in an almost *skewmorphic* way, since we are using a digital display for the timer.
+- Because the whole design is big a boxy, we decided to add a more *retro* style to the device, to make use of the empty spaces on the device's body for decorative purposes. This is why we settled on decorating it with Art Deco flourishes.
+- We decided to place the *Rotary Dial* in the middle of the device, to give it an analog feel, fitting its overall retro style.
+- On each side of the dial, we fitted the *Distance Sensor* and the *LED Light*, for ease of wiring in the back of the panel. We left some space in between the openings for these sensors so that the boards behind them can fit nicely without overlaping.
+- We added a curved grill undertneath, to fith with the Art Deco aesthetic.
+- For the font of the device, and its buttons, we chose a sleek serif style, again to match with the overal retro feel.
+
 Build a cardbord prototype of your design.
 
-**\*\*\*We made a the front side of the prototype using card board, we did not start to seal the side of the box becuase during the development stage we figured we would make a lot of adjustments. Leave it a more flexiable stage would help us for the futher development. \*\*\***
+***Document your rough prototype.***
 
 ### Cardboard Prototype
+
+We made a the front side of the prototype using card board, we did not start to seal the side of the box becuase during the development stage we figured we would make a lot of adjustments. We left it in a more flexible stage so in Part 2 it would help us the futher develop the design.
+
 ![732459795035551955](https://user-images.githubusercontent.com/39228801/137837813-ea976e34-389b-47c0-ac99-6a11dd197494.jpg)
 
 
