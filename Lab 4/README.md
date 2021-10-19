@@ -94,6 +94,11 @@ Twizzler 10 touched!
 Twizzler 6 touched!
 ```
 
+#### Testing - Adafruit MPR121 12-Key Capacitive Touch Sensor
+
+![Adafruit MPR121 12-Key Capacitive Touch Sensor](https://user-images.githubusercontent.com/14202464/137830295-ba00b3dc-9d27-49eb-9e24-4478d5395533.jpg)
+
+
 ### Part B
 ### More sensors
 
@@ -116,6 +121,11 @@ Connect it to your pi with Qwiic connector and try running the three example scr
 
 You can go the the [Adafruit GitHub Page](https://github.com/adafruit/Adafruit_CircuitPython_APDS9960) to see more examples for this sensor!
 
+#### Testing - Light_Proximity_Gesture sensor (APDS-9960)
+
+![Light_Proximity_Gesture sensor (APDS-9960)](https://user-images.githubusercontent.com/14202464/137830337-e5fdc843-eb49-4a14-8ac8-0c947d887a88.jpg)
+
+
 #### Rotary Encoder
 
 A rotary encoder is an electro-mechanical device that converts the angular position to analog or digital output signals. The [Adafruit rotary encoder](https://www.adafruit.com/product/4991#technical-details) we ordered for you came with separated breakout board and encoder itself, that is, they will need to be soldered if you have not yet done so! We will be bringing the soldering station to the lab class for you to use, also, you can go to the MakerLAB to do the soldering off-class. Here is some [guidance on soldering](https://learn.adafruit.com/adafruit-guide-excellent-soldering/preparation) from Adafruit. When you first solder, get someone who has done it before (ideally in the MakerLAB environment). It is a good idea to review this material beforehand so you know what to look at.
@@ -133,6 +143,10 @@ Connect it to your pi with Qwiic connector and try running the example script, i
 ```
 
 You can go to the [Adafruit Learn Page](https://learn.adafruit.com/adafruit-i2c-qt-rotary-encoder/python-circuitpython) to learn more about the sensor! The sensor actually comes with an LED (neo pixel): Can you try lighting it up? 
+
+#### Testing - Adafruit I2C QT Rotary Encoder
+
+![Adafruit I2C QT Rotary Encoder](https://user-images.githubusercontent.com/14202464/137830351-161b1204-e56a-406e-8951-c9b2b7869ae9.jpg)
 
 #### Joystick
 
@@ -167,6 +181,10 @@ Connect it to your pi with Qwiic connector and try running the example script to
 ```
 
 You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_VL53L1X_Py) to learn more about the sensor and see other examples!
+
+#### Testing - Qwiic Multi Distance Sensor (VL53L3CX)
+
+![Qwiic Multi Distance Sensor - VL53L3CX](https://user-images.githubusercontent.com/14202464/137830381-7eb0d7d5-8a4d-41d8-ab7c-a9310578d4df.jpg)
 
 ### Part C
 
