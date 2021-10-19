@@ -239,6 +239,8 @@ The **Smart Timer** is a product that allows you to set a countdown timer using 
 
 #### Sample Product Design
 
+![demo-0001](https://user-images.githubusercontent.com/14202464/137831988-db9b126f-b1ad-4510-82a2-db88c648cb34.png)
+
 ### Idea 3 - Safe Keeper
 
 #### Product Description
@@ -250,6 +252,8 @@ The **Smart Timer** is a product that allows you to set a countdown timer using 
 #### Sensors/Components Placement
 
 #### Sample Product Design
+
+![demo-0003](https://user-images.githubusercontent.com/14202464/137832053-b57da3f6-71ec-4c7e-b2ba-8848b84d261a.png)
 
 ### Idea 4 - Racing Simulator
 
@@ -263,6 +267,9 @@ The **Smart Timer** is a product that allows you to set a countdown timer using 
 
 #### Sample Product Design
 
+![demo-0000](https://user-images.githubusercontent.com/14202464/137831978-dee1ab44-80ca-49e2-a282-6e09c76c4012.png)
+
+
 ### Idea 5 - Night Path
 
 #### Product Description
@@ -274,6 +281,8 @@ The **Smart Timer** is a product that allows you to set a countdown timer using 
 #### Sensors/Components Placement
 
 #### Sample Product Design
+
+![demo-0002](https://user-images.githubusercontent.com/14202464/137832014-5bfb859a-b867-494f-974a-9f5792e0d925.png)
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
