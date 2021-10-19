@@ -220,7 +220,6 @@ The **Smart Timer** is a product that allows you to set a countdown timer using 
 
 `distance sensor`, `capacitive touch sensor`, `rotating dial`, `microphone`, `LED light`, `screen`
 
-#### Sensors/Components Placement
 
 #### Sample Product Design
 
@@ -230,12 +229,11 @@ The **Smart Timer** is a product that allows you to set a countdown timer using 
 ### Idea 2 - Smart Blind
 
 #### Sensors/Components Description
-
+The smart blind take vocie input and open/close the blind according to the input.
 #### Sensors/Components Used
 
 `speaker`, `servo mottor`, `screen`
 
-#### Sensors/Components Placement
 
 #### Sample Product Design
 
@@ -244,12 +242,11 @@ The **Smart Timer** is a product that allows you to set a countdown timer using 
 ### Idea 3 - Safe Keeper
 
 #### Product Description
-
+The Safe Keeper detects unauthorized access and activates the alarm.
 #### Sensors/Components Used
 
 `luminosity sensor`, `LED button`, `screen`
 
-#### Sensors/Components Placement
 
 #### Sample Product Design
 
@@ -258,12 +255,11 @@ The **Smart Timer** is a product that allows you to set a countdown timer using 
 ### Idea 4 - Racing Simulator
 
 #### Product Description
-
+Racing simulator contains a steering wheel and two paddles. Joystick will be used for steeling, capacitance detector would be used for paddles.
 #### Sensors/Components Used
 
 `touch capacitor`, `LED button`, `joystick`, `screen`
 
-#### Sensors/Components Placement
 
 #### Sample Product Design
 
@@ -278,7 +274,6 @@ The **Smart Timer** is a product that allows you to set a countdown timer using 
 
 `distance sensor`, `screen`, `LED light`, `capacitive touch sensor`
 
-#### Sensors/Components Placement
 
 #### Sample Product Design
 
@@ -340,32 +335,38 @@ Think about how you want to present the information about what your sensor is se
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
 ### User Interface Design 1
+![idea_1_uml](https://user-images.githubusercontent.com/14202464/137798569-9c601280-c563-4ebb-aec9-830365d2a25a.png)
 
 ### User Interface Design 2
+![409649488158879307](https://user-images.githubusercontent.com/39228801/137839757-bd9900ed-dd02-4ba3-aa75-bb2346bf3c09.jpg)
 
 ### User Interface Design 3
+![600116618719035536](https://user-images.githubusercontent.com/39228801/137840858-3cfead5a-77f6-430a-b91c-78eea8f8b3a0.jpg)
 
 ### User Interface Design 4
+![917319675740346721](https://user-images.githubusercontent.com/39228801/137840880-2d7c99a0-63be-45c1-b7c0-82b5eec6c7bf.jpg)
 
 ### User Interface Design 5
+![579476596848063676](https://user-images.githubusercontent.com/39228801/137841453-54b50077-2001-4c7c-a9a0-e44f8698f557.jpg)
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
-
+When we making sketches, we found a problem is that if the design of the prototype looks good, they might be some conflicts for the placement of the sensors. For example, we want to make the knob and button close to each other, but during prototyping, we figured the sensors don’t have enough space to fit together. We need to make modifications along the way of our prototyping process.
 ### Design Questions
 
-**\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
+**\*\*\*We choose design 1 as our prototype.\*\*\***
 
 ### Idea Selection
 
-**\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+**\*\*\*Since all the user interface are all physical. We choose design 1 since it has a more anique looking, and all the physical interface will make more sense.\*\*\*** 
 
 ### Design Rationale
 
 Build a cardbord prototype of your design.
 
-**\*\*\*Document your rough prototype.\*\*\***
+**\*\*\*We made a the front side of the prototype using card board, we did not start to seal the side of the box becuase during the development stage we figured we would make a lot of adjustments. Leave it a more flexiable stage would help us for the futher development. \*\*\***
 
 ### Cardboard Prototype
+![732459795035551955](https://user-images.githubusercontent.com/39228801/137837813-ea976e34-389b-47c0-ac99-6a11dd197494.jpg)
 
 
 LAB PART 2
@@ -410,4 +411,3 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
-
