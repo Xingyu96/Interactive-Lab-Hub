@@ -216,11 +216,11 @@ The **Smart Timer** is a product that allows you to set a countdown timer using 
 - As the countdown reaches zero, the Smart Timer will announce it by both emitting a sound, and using a LED light. 
 - The User can then dismiss the timer by waving over the device *or* through touching the physical touch sensor interface.
 
-#### Sensors Used
+#### Sensors/Components Used
 
-`distance sensor`, `touch capacitor`, `rotating dial`, `microphone`, `LED light`
+`distance sensor`, `capacitive touch sensor`, `rotating dial`, `microphone`, `LED light`, `screen`
 
-#### Sensors Placement
+#### Sensors/Components Placement
 
 #### Sample Product Design
 
@@ -229,11 +229,13 @@ The **Smart Timer** is a product that allows you to set a countdown timer using 
 
 ### Idea 2 - Smart Blind
 
-#### Product Description
+#### Sensors/Components Description
 
-#### Sensors Used
+#### Sensors/Components Used
 
-#### Sensors Placement
+`speaker`, `servo mottor`, `screen`
+
+#### Sensors/Components Placement
 
 #### Sample Product Design
 
@@ -241,9 +243,11 @@ The **Smart Timer** is a product that allows you to set a countdown timer using 
 
 #### Product Description
 
-#### Sensors Used
+#### Sensors/Components Used
 
-#### Sensors Placement
+`luminosity sensor`, `LED button`, `screen`
+
+#### Sensors/Components Placement
 
 #### Sample Product Design
 
@@ -251,9 +255,11 @@ The **Smart Timer** is a product that allows you to set a countdown timer using 
 
 #### Product Description
 
-#### Sensors Used
+#### Sensors/Components Used
 
-#### Sensors Placement
+`touch capacitor`, `LED button`, `joystick`, `screen`
+
+#### Sensors/Components Placement
 
 #### Sample Product Design
 
@@ -261,9 +267,11 @@ The **Smart Timer** is a product that allows you to set a countdown timer using 
 
 #### Product Description
 
-#### Sensors Used
+#### Sensors/Components Used
 
-#### Sensors Placement
+`distance sensor`, `screen`, `LED light`, `capacitive touch sensor`
+
+#### Sensors/Components Placement
 
 #### Sample Product Design
 
