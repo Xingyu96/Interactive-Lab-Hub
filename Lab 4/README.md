@@ -509,3 +509,18 @@ We performed a few user tests on our paper prototype
 - We asked people to pick up the device, and put it onto a table
 - We asked them to wake up the device, and set a timer, then pause the timer in the middle of the countdown and restart it again.
 - Finally we asked them how they liked their experience and what suggestions they have for improving the device
+
+**Feedback**
+- All test users really liked the "wave to start" feature and found it really cool
+- Some would like the "wave" feature to also be applied to "Starting" and "Pausing" the clock
+  - This could be achieved by using some sort of camera pose detection, but we don't think implementing this will be possible given the device size
+- Some would like the distance detection to work further away from the close range we have set
+  - We agree with this, we think we could easily modify this to have a longer detection distance by switching to using the optional distance sensor which offers a wider range of distance detection. Adding this feature will allow the user to interact with the device from further away, which could be useful for their convenience
+- Test users wished the button touch area were bigger than right now (a conductive strip)
+  - We could achieve this through using larger bands of conductive taping for our buttons, adding this feature will improve the user experience by making the button pressing action easier
+- One person think adding a feature to use voice to set timer would be really cool
+  - This is really useful feedback, as we could add this feature easily through more scripting. We think adding this feature will improve the user experience by making controlling the device even easier
+
+| **User Testing Pic (1)** | **User Testing Pic (2)** |
+| --- | --- |
+| ![IMG_20211025_214807](https://user-images.githubusercontent.com/14202464/138804379-bf5f56cf-dc99-4a5d-bfd1-bd8e24d59967.jpg) |![IMG_20211025_214819](https://user-images.githubusercontent.com/14202464/138804394-70481368-ec1f-4ad3-91fb-466f6f099600.jpg) |
