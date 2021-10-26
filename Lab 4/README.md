@@ -417,6 +417,14 @@ We made a the front side of the prototype using card board, we did not start to 
 
 ![732459795035551955](https://user-images.githubusercontent.com/39228801/137837813-ea976e34-389b-47c0-ac99-6a11dd197494.jpg)
 
+#### Feedback
+We asked two of our friends to look at our prototype and give us some feedback on it:
+- They liked the overall design of the *Smart Timer*, especially the Art Deco style that somewhat justifies its boxy size
+- When mocking out the interaction with the timer, we noticed that both of our friends used the button exclusively to interact with the device, and did not attempt to use the distance sensing feature
+  - In part two, we will make this feature more prominent and use it to “wake up" the timer to encourage useres to interact with it
+- One of them said they wish the screen display was bigger
+  - This is a valid criticism, and we think it would also be great if we could make it bigger, perhaps by using a physical LED array and light-up indicators, but we chose to not pursue this route because we were not sure everything would fit into the box.
+
 
 LAB PART 2
 
@@ -461,20 +469,35 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
 <br>
-Link to the demo video: https://www.youtube.com/watch?v=Q8wy3w8GtRc <br>
-This is the look of our smart timer:<br>
 
-![837406413927457101](https://user-images.githubusercontent.com/39228801/138542858-ff3e2a91-2462-40a7-914f-68e2e387e163.jpg)
+### Smart Timer - Looks Like - Refining Design from Part 1
+From the design process in Part 1 and the feedback that we received, we decided to refine the design:
+- We made the distance sensor more prominent on hte box
+- We made the distance sensor control the *Smart Timer* wake up action
+- We added a "Waiting" and "Time Up" screen to the display to better communicate the device's states to the user
 
-![27599063804055796](https://user-images.githubusercontent.com/39228801/138542837-bea313ca-516c-405f-8ad0-71feeb768a66.jpg)
+#### Sensor Wiring
 
-This is the interior struction of the prototype:<br>
-![703329045259335972](https://user-images.githubusercontent.com/39228801/138542852-841f69bc-2073-45f5-bea0-195815678fbd.jpg)
+**Sensor Wiring (Flat)**
 
+| ![labeled_sensors](https://user-images.githubusercontent.com/14202464/138799600-5dc31306-25f9-40ea-a87e-00317d2bb96d.png)
 
+#### Final Prototype
 The main senor we applied is the encoder. We use it as the knob for the smart timer. Then we used the 4 pin cable to connected some other senors for other fancy features.<br>
 We use the Capacitive Sensing for the start and pause button.<br>
 We use the Distance Sensor for detecting the waving hand gesture.<br>
 We use the speaker for reminding the state of the timer.<br>
 Below is the picture of how we connect all the senors in a flat view.<br>
-![420787005824392073](https://user-images.githubusercontent.com/39228801/138542940-905361e4-7149-432d-add4-1373066560f7.jpg)
+
+| **Sensor Wiring (Inside Paper Prototype)** | **Prototype View** |
+| --- | --- |
+| ![703329045259335972](https://user-images.githubusercontent.com/39228801/138542852-841f69bc-2073-45f5-bea0-195815678fbd.jpg) | ![27599063804055796](https://user-images.githubusercontent.com/39228801/138542837-bea313ca-516c-405f-8ad0-71feeb768a66.jpg) |
+
+### Smart Timer - Works Like - Usage and Video
+
+
+### Smart Timer - Acts Like - User Testing
+We performed a few user tests on our paper prototype
+- We asked people to pick up the device, and put it onto a table
+- We asked them to wake up the device, and set a timer, then pause the timer in the middle of the countdown and restart it again.
+- Finally we asked them how they liked their experience and what suggestions they have for improving the device
