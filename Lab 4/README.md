@@ -478,23 +478,31 @@ From the design process in Part 1 and the feedback that we received, we decided 
 
 #### Sensor Wiring
 
+**Sensor Wiring (Diargram)**
+
+![sensor_diagram](https://user-images.githubusercontent.com/14202464/138803566-8d3ed4ba-a669-4f90-9646-abe03c46903f.png)
+
 **Sensor Wiring (Flat)**
 
-| ![labeled_sensors](https://user-images.githubusercontent.com/14202464/138799600-5dc31306-25f9-40ea-a87e-00317d2bb96d.png)
+![labeled_sensors](https://user-images.githubusercontent.com/14202464/138799600-5dc31306-25f9-40ea-a87e-00317d2bb96d.png)
 
 #### Final Prototype
-The main senor we applied is the encoder. We use it as the knob for the smart timer. Then we used the 4 pin cable to connected some other senors for other fancy features.<br>
-We use the Capacitive Sensing for the start and pause button.<br>
-We use the Distance Sensor for detecting the waving hand gesture.<br>
-We use the speaker for reminding the state of the timer.<br>
-Below is the picture of how we connect all the senors in a flat view.<br>
+The main senor we applied is the rotary encoder. We use it as the knob for the smart timer. Then we used the 4 pin cable to connected some other senors for other fancy features.
+
+- We use the Capacitive Sensing for the start and pause button.
+- We use the Distance Sensor for detecting the waving hand gesture.
+- We use the speaker for reminding the state of the timer.
+
+Below is the final prototype where we connect everything together
 
 | **Sensor Wiring (Inside Paper Prototype)** | **Prototype View** |
 | --- | --- |
 | ![703329045259335972](https://user-images.githubusercontent.com/39228801/138542852-841f69bc-2073-45f5-bea0-195815678fbd.jpg) | ![27599063804055796](https://user-images.githubusercontent.com/39228801/138542837-bea313ca-516c-405f-8ad0-71feeb768a66.jpg) |
 
 ### Smart Timer - Works Like - Usage and Video
+This is our usage video
 
+[![Watch the video](https://user-images.githubusercontent.com/14202464/138804059-6be8a329-a974-42f3-9eb9-4b305d49185e.PNG)](https://www.youtube.com/watch?v=Q8wy3w8GtRc)
 
 ### Smart Timer - Acts Like - User Testing
 We performed a few user tests on our paper prototype
