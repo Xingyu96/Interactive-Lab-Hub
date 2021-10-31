@@ -252,8 +252,10 @@ Try out different interaction outputs and inputs.
 
 One of the interesting class of objects we played around with is hand gesture detection. We think it would be cool to interact with an intelligent desk and screen combination using hand gestures.
 
-a. **The Desk**: We will connect a webcam to the Pi, and the Pi to a desk which is controlled by a motor. The user can controll the desk height by using hand gestures. We can also add a face recognition feature using Teaching Manchine to recognize different people, and load up their personalized desk height settings.
-a. **The Screen**: We will connect a webcam to the Pi, and the Pi to a medium-size display screen. The screen displays an application that can show the user some stats about the desk (current height, current profile, settings, etc). The screen will give the user feedback on their current actions. For example when the user raises the desk, the screen will display the desk height becoming larger. The application can include expanded functionalities, such as weather report, or to-do list, which the user can access using hand gestures and voice control.
+1. **The Desk**: We will connect a webcam to the Pi, and the Pi to a desk which is controlled by a motor. The user can controll the desk height by using hand gestures. We can also add a face recognition feature using Teaching Manchine to recognize different people, and load up their personalized desk height settings.
+1. **The Screen**: We will connect a webcam to the Pi, and the Pi to a medium-size display screen. The screen displays an application that can show the user some stats about the desk (current height, current profile, settings, etc). The screen will give the user feedback on their current actions. For example when the user raises the desk, the screen will display the desk height becoming larger. The application can include expanded functionalities, such as weather report, or to-do list, which the user can access using hand gestures and voice control.
+
+**[insert story board]**
 
 ### Part C
 ### Test the interaction prototype
