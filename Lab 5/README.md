@@ -250,10 +250,11 @@ Try out different interaction outputs and inputs.
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***\\
 
-One of the interesting class of objects we played around with is hand gesture detection. We think it would be cool to interact with an intelligent desk and screen combination using hand gestures.
+One of the interesting class of objects we played around with is hand gesture detection using Hand Pose and object detection using Teaching Machine. We brainstormed an idea to build a **Cooking Instructor** using object detection and hand gesture detection. This system would be hooked up to a screen that can take you step by step through assembling a recipe and making a meal.
 
-1. **The Desk**: We will connect a webcam to the Pi, and the Pi to a desk which is controlled by a motor. The user can controll the desk height by using hand gestures. We can also add a face recognition feature using Teaching Manchine to recognize different people, and load up their personalized desk height settings.
-1. **The Screen**: We will connect a webcam to the Pi, and the Pi to a medium-size display screen. The screen displays an application that can show the user some stats about the desk (current height, current profile, settings, etc). The screen will give the user feedback on their current actions. For example when the user raises the desk, the screen will display the desk height becoming larger. The application can include expanded functionalities, such as weather report, or to-do list, which the user can access using hand gestures and voice control.
+1. **Select Recipe**: The user can browse and select a recipe to make, the screen then shows what ingredients the user needs to gather.
+2. **Preparing the Ingredients**: Once the user has gathered all the ingredients, they can proceed to the next step. The **cooking instructor** will walk the user through the steps of preparing the ingredients, by detecting the ingredients present on the cutting board and instructing the user to proceed to cut them into pieces. The device will detect what ingredients are on the board, and if the ingredient processing is done and proceed to the next step.
+3. **Cooking**: For the cooking portion, the **cooking instructor** will provide automatic timers for the user to use. They can also flip through the recipe steps using hand gestures to review or preview steps.
 
 **[insert story board]**
 
