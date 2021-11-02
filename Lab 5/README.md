@@ -223,8 +223,10 @@ This might take a while to get fully installed. After installation, connect your
 | --- | --- |
 | ![image](https://user-images.githubusercontent.com/40989769/139597495-f3ddc51e-df6e-4be0-a93a-9aec18a598df.png) | ![image](https://user-images.githubusercontent.com/40989769/139597533-21e5b66b-a974-4fe4-a6fd-020bbb48531a.png) |
 
-#### DEPLOY THE MODEL
-https://user-images.githubusercontent.com/40989769/139601652-f3f19dd7-fb35-41be-80ce-ef78d72eb832.png
+
+### DEPLOY THE MODEL
+
+<img width="1316" alt="iShot2021-10-31 17 19 27" src="https://user-images.githubusercontent.com/40989769/139601652-f3f19dd7-fb35-41be-80ce-ef78d72eb832.png">
 
 
 
@@ -267,6 +269,7 @@ One of the interesting class of objects we played around with is hand gesture de
 1. **Select Recipe**: The user can browse and select a recipe to make, the screen then shows what ingredients the user needs to gather.
 2. **Preparing the Ingredients**: Once the user has gathered all the ingredients, they can proceed to the next step. The **cooking instructor** will walk the user through the steps of preparing the ingredients, by detecting the ingredients present on the cutting board and instructing the user to proceed to cut them into pieces. The device will detect what ingredients are on the board, and if the ingredient processing is done and proceed to the next step.
 3. **Cooking**: For the cooking portion, the **cooking instructor** will provide automatic timers for the user to use. They can also flip through the recipe steps using hand gestures to review or preview steps.
+
 
 ![idd5](https://user-images.githubusercontent.com/14202464/139872477-d62fbbe0-42f1-48c4-ae5d-f61da37f598c.jpg)
 
