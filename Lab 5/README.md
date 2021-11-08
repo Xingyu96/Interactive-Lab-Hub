@@ -330,7 +330,6 @@ Now flight test your interactive prototype and **note down your observations**:
 4. Based on the behavior you have seen, what other scenarios could cause problems?<br>
 
     - The system may not detect the hand gesture correctly, if someone has nail polish, or different hand size.
-    - 
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 
