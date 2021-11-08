@@ -106,28 +106,33 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 ```
 
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.<br>
-**Contours Detection**<br>
-potential design example: Object classifing system.<br>
-We can use the fact that different object has different contours to classify what type of object is showed in the camera by applying this algorithm.<br>
-![1635535976(1)](https://user-images.githubusercontent.com/39228801/139492152-4d5278de-926d-409c-acd2-1822b039cc04.png)
-<br>
-**Face Detection** <br>
-potential design example: Automatic Check-In system.<br>
-We can use the face detection algorithm to create a check-in system. Where the camera would automaticly check the student in if it sees the student. <br>
-![1635536393(1)](https://user-images.githubusercontent.com/39228801/139492746-6dd93420-310f-400f-b274-87df81d79947.png)
-<br>
-**Flow detection**<br>
-potential design example: Pet motion tracker. <br>
-We can use this to find out what our pet is doing when we are not home by monitoring the moving path of the pets.<br>
-![1635536589](https://user-images.githubusercontent.com/39228801/139493082-192d1222-2fff-4144-b56b-3755a042b15d.png)
-<br>
-**Object Detection**<br>
-potential design example: unattended object detection. <br>
-We can applying this algorithm to surveillance camera, when there are extraneous object showed in the room for a long time. It means we identified an unattended object.<br>
-![1635536715(1)](https://user-images.githubusercontent.com/39228801/139493312-c7a11d7c-ec0c-4ce2-85f1-4dae1754c17c.png)
+**Contours Detection**
 
-<br>
+<img src="https://user-images.githubusercontent.com/39228801/139492152-4d5278de-926d-409c-acd2-1822b039cc04.png" width="300">
 
+- potential design example: Object classifing system.
+    - We can use the fact that different object has different contours to classify what type of object is showed in the camera by applying this algorithm.<br>
+
+**Face Detection**
+
+<img src="https://user-images.githubusercontent.com/39228801/139492746-6dd93420-310f-400f-b274-87df81d79947.png" width="300">
+
+- potential design example: Automatic Check-In system.<br>
+    - We can use the face detection algorithm to create a check-in system. Where the camera would automaticly check the student in if it sees the student. <br>
+
+**Flow detection**
+
+<img src="https://user-images.githubusercontent.com/39228801/139493082-192d1222-2fff-4144-b56b-3755a042b15d.png" width="300">
+
+- potential design example: Pet motion tracker. <br>
+    - We can use this to find out what our pet is doing when we are not home by monitoring the moving path of the pets.<br>
+
+**Object Detection**
+
+<img src="https://user-images.githubusercontent.com/39228801/139493312-c7a11d7c-ec0c-4ce2-85f1-4dae1754c17c.png" width="300">
+
+- potential design example: unattended object detection. <br>
+    - We can applying this algorithm to surveillance camera, when there are extraneous object showed in the room for a long time. It means we identified an unattended object.<br>
 
 \*\*\***
 
