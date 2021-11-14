@@ -172,7 +172,7 @@ Of course not! You can go to [https://one-true-colornet.glitch.me/](https://one-
 #### Colors Universal Receiver
 We set up a script that would receive all the colors output from different users by modifying the `reader.py` file into a version called `color_reader.py` where it would display all color values that are streamed to the channel topic `IDD/colors`. This way by running `python color_reader.py` we can read all the different color values being read in different Raspberry Pis.
 
-<img src="https://user-images.githubusercontent.com/14202464/141701687-2d7a79bd-94a8-43fa-93d8-45c07744d421.PNG" height="600">
+<img src="https://user-images.githubusercontent.com/14202464/141701687-2d7a79bd-94a8-43fa-93d8-45c07744d421.PNG" width="600">
 
 
 ### Part E
